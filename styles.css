@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Poppins|Source+Sans+Pro|Montserrat:400,900&display=swap");
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", "Poppins", sans-serif;
+}
+body {
+   background: #f7e7ce; 
+   padding: 0;
+   margin: 0 ;
+   
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+  text-align: center;
+}
+
+.menu {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+  text-align: center;
+}
+
+.menu-item {
+  display: flex;
+  text-align: center;
+  
+}
+
+
+
+.menu-item-img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+    text-align: center;
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  
+  text-align: center;
+  right: auto;
+  
+}
+
+.menu-item-name {
+ 
+  margin-right: 1.5em;
+  text-align: center;
+  
+  
+  
+}
+
+.menu-item-desc {
+    text-align: center;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+    
+  }
+
+  .menu-group {
+    
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item-img {
+    width: 125px;
+    height: 125px;
+  }
+  .menu-item-price {
+    text-align: right;
+   
+  }
+
+ 
+
+  a {
+    background-color: #8d9468;
+    color: #eee;
+    padding: 15px 25px;
+    text-decoration: none;
+    position: relative; left: 550px;
+  }
+  
+  a:hover {
+    background-color: #d6336c;
+  }
+
+  
+
+}
